@@ -22,8 +22,10 @@ create table tb_produtos (                                      ------- Criaçã
 ("Calça", 80.00, "Rering",200),
 ("Chapeu", 120.00, "Avuar",50),
 ("Camiseta", 40.00, "Lizona",200);
-*/
+
 
  select * from tb_produtos where preco > 500.00;        -- Select 1 solicitado
  
  select * from tb_produtos where preco < 500.00;        -- Select 2 solicitado
+ */
+ update tb_produtos set preco = 50.00 where id = 1;     -- Atualização de dados

@@ -22,8 +22,9 @@ insert into estudantes (nome, idade, turma, nota) values      ------- populando 
 ("Pedro",17,3,6),
 ("Clara",17,3,7);
 
-*/
-
  select * from estudantes where nota >= 7.00;        -- Select 1 solicitado
  
  select * from estudantes where nota < 7.00;        -- Select 2 solicitado
+ */
+ 
+ update estudantes set nome = "Felipinho" where id = 1;     -- Atualização de dados

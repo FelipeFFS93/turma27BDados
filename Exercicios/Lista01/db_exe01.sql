@@ -18,12 +18,14 @@ values
  ("Paula",25,true,4200.00),
  ("Ana",22,true,1800.00),
  ("Pedro",18,true,1500.00),
- ("Clara",35,true,5000.00);*/
+ ("Clara",35,true,5000.00);
  
  
  select * from tb_funcionarios where salario > 2000.00;        -- Select 1 solicitado
  
  select * from tb_funcionarios where salario < 2000.00;        -- Select 2 solicitado
  
+ */
  
+ update tb_funcionarios set salario = 3000.00, ativo = true where id = 1;     -- Atualização de dados
  
